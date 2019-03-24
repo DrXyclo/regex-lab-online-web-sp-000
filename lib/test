@@ -1,0 +1,62 @@
+
+
+# names = ["Jeri Faria", "Althea Voth", "Audry Donoho", "Scotty Chaves", "Lance Barrio", "Zachary Newhall", "Stefany Janey", "Tressie Kinsel", "Raven Grimsley", "Marketta Gaylor", "Leota Crowe", "Mazie Norman", "Damien Loffredo"]
+
+# puts names.grep(/^\w{5}\s/)
+
+
+
+words_string = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
+words_array = words_string.split(" ") 
+words_array.grep(/\w{5}/).each do |word|
+if word.length == 5
+puts word
+end
+end
+
+# word.length != 5 
+# puts word 
+# end
+
+
+
+
+# puts words_length_of_5_plus 
+# puts words_length_of_5_plus.length == 5 
+# puts words_length_of_5_plus
+# end
+
+
+
+=begin
+
+words_string = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
+# words_array = words_string.split(" ")
+puts words_string.scan(/\w{5,5}/)
+
+def words_five_letters_long(words_string)
+  
+  words_array = words_string.split(" ")
+  puts words_array.grep(/\w{5}/)
+end
+
+words_five_letters_long(words_string)
+
+
+
+    words_string = "unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary"
+    
+    # print "unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary".split(",")
+    
+    # print words_string = %w{unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary}
+
+   puts words_string.split(" ")
+    # puts words_string.grep(/un|ing/)
+   
+   # return %w{words_string}.scan.count
+    
+
+
+
+words_list.match(/\w{5}/)
+=end 
